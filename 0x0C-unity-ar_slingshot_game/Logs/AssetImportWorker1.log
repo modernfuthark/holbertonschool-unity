@@ -1,0 +1,343 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'en' Physical Memory: 8003 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/itsna/Documents/holbertonschool-unity/0x0C-unity-ar_slingshot_game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+65460
+Successfully changed project path to: C:/Users/itsna/Documents/holbertonschool-unity/0x0C-unity-ar_slingshot_game
+C:/Users/itsna/Documents/holbertonschool-unity/0x0C-unity-ar_slingshot_game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 79.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/itsna/Documents/holbertonschool-unity/0x0C-unity-ar_slingshot_game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.6192
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/2020.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.003651 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 38.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.399 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006150 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 38.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.197 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1814 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.6 MB.
+System memory in use after: 79.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2253.
+Total: 4.995200 ms (FindLiveObjects: 0.218100 ms CreateObjectMapping: 0.079100 ms MarkObjects: 4.426100 ms  DeleteObjects: 0.270400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/Target.prefab
+  artifactKey: Guid(afa800b864afe1644b52cda06fe1d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Target.prefab using Guid(afa800b864afe1644b52cda06fe1d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b1e3ac8d1a8343faae49966fa4e51d') in 0.126778 seconds
+  Import took 0.130583 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004967 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2265.
+Total: 1.892100 ms (FindLiveObjects: 0.185600 ms CreateObjectMapping: 0.078500 ms MarkObjects: 1.591300 ms  DeleteObjects: 0.035600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 228.300999 seconds.
+  path: Assets/Prefabs/Target.prefab
+  artifactKey: Guid(afa800b864afe1644b52cda06fe1d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Target.prefab using Guid(afa800b864afe1644b52cda06fe1d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78487a4c4932b2a2b0f5cceb250c856') in 0.072233 seconds
+  Import took 0.075660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.006497 seconds.
+  path: Assets/Prefabs/Target.prefab
+  artifactKey: Guid(afa800b864afe1644b52cda06fe1d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Target.prefab using Guid(afa800b864afe1644b52cda06fe1d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f397f3e65243788cfbc3d17ebf596714') in 0.011155 seconds
+  Import took 0.014578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.244245 seconds.
+  path: Assets/Prefabs/Target.prefab
+  artifactKey: Guid(afa800b864afe1644b52cda06fe1d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Target.prefab using Guid(afa800b864afe1644b52cda06fe1d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b95bf901cede80d7284376d411b03b') in 0.011297 seconds
+  Import took 0.015438 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004777 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.315 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2270.
+Total: 2.382200 ms (FindLiveObjects: 0.218200 ms CreateObjectMapping: 0.075300 ms MarkObjects: 2.043200 ms  DeleteObjects: 0.043600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.2 MB.
+System memory in use after: 46.3 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 5.930900 ms (FindLiveObjects: 0.268700 ms CreateObjectMapping: 0.145200 ms MarkObjects: 5.466400 ms  DeleteObjects: 0.047500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3711.110406 seconds.
+  path: Assets/Bowling Kegel & Ball/Prefabs/Ball.prefab
+  artifactKey: Guid(ac1af96fd5e0f4f9e97339b652aa389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling Kegel & Ball/Prefabs/Ball.prefab using Guid(ac1af96fd5e0f4f9e97339b652aa389b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3be34dc64b5e05ac2bc112a22bf0499f') in 0.747873 seconds
+  Import took 0.789289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Bowling Kegel & Ball/Prefabs/Kegel.prefab
+  artifactKey: Guid(4246925f0393c430189bb4ceba36dc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling Kegel & Ball/Prefabs/Kegel.prefab using Guid(4246925f0393c430189bb4ceba36dc8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706a71c420e326d70b8a99864cc81b76') in 0.126551 seconds
+  Import took 0.130105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.046047 seconds.
+  path: Assets/Bowling Kegel & Ball/Resources/Geometry/Kegel&ball.fbx
+  artifactKey: Guid(6a14dc0db365944f182482aba11ad830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling Kegel & Ball/Resources/Geometry/Kegel&ball.fbx using Guid(6a14dc0db365944f182482aba11ad830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aacd848cad3212f65ecd9a4864c131a') in 0.141842 seconds
+  Import took 0.146287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003662 seconds.
+  path: Assets/Bowling Kegel & Ball/Resources/Geometry/Kegel&ball.fbx
+  artifactKey: Guid(6a14dc0db365944f182482aba11ad830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling Kegel & Ball/Resources/Geometry/Kegel&ball.fbx using Guid(6a14dc0db365944f182482aba11ad830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aacd848cad3212f65ecd9a4864c131a') in 0.045460 seconds
+  Import took 0.048948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.709357 seconds.
+  path: Assets/Bowling Kegel & Ball/Resources/Materials/Ball.mat
+  artifactKey: Guid(fb5add3c4763c4bbaabc2af4aebe8967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling Kegel & Ball/Resources/Materials/Ball.mat using Guid(fb5add3c4763c4bbaabc2af4aebe8967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05877cd054cf261095d9e5414953325c') in 0.171404 seconds
+  Import took 0.175705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Bowling Kegel & Ball/Resources/Materials/Kegel.mat
+  artifactKey: Guid(89ba2babb6d7140db92ff783f8da045e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling Kegel & Ball/Resources/Materials/Kegel.mat using Guid(89ba2babb6d7140db92ff783f8da045e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051259f6fd6af99a2406b414812cb576') in 0.069093 seconds
+  Import took 0.071964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Bowling Kegel & Ball/Resources/Materials/Ball.mat
+  artifactKey: Guid(fb5add3c4763c4bbaabc2af4aebe8967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling Kegel & Ball/Resources/Materials/Ball.mat using Guid(fb5add3c4763c4bbaabc2af4aebe8967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05877cd054cf261095d9e5414953325c') in 0.126045 seconds
+  Import took 0.129012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.854580 seconds.
+  path: Assets/Bowling Kegel & Ball/Resources/Textures/Ball_AlbedoTransparency.png
+  artifactKey: Guid(3ca92b25d953e47f4987779a9648fd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling Kegel & Ball/Resources/Textures/Ball_AlbedoTransparency.png using Guid(3ca92b25d953e47f4987779a9648fd92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4894ea257a1a6e4591b547d86bf0b291') in 0.087631 seconds
+  Import took 0.090860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Bowling Kegel & Ball/Resources/Textures/Kegel_AlbedoTransparency.png
+  artifactKey: Guid(cc044e04b7f4e4a519afa63f44551d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling Kegel & Ball/Resources/Textures/Kegel_AlbedoTransparency.png using Guid(cc044e04b7f4e4a519afa63f44551d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43c86c899b6caa1adaaa6a9bb6f5d9d') in 0.064389 seconds
+  Import took 0.067486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Bowling Kegel & Ball/Resources/Textures/Ball_Normal.png
+  artifactKey: Guid(31f8987ce808c4a37b04eae96da9dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling Kegel & Ball/Resources/Textures/Ball_Normal.png using Guid(31f8987ce808c4a37b04eae96da9dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2a7a095121ab34bea491edd14adadd') in 0.064100 seconds
+  Import took 0.067713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Bowling Kegel & Ball/Resources/Textures/Ball_SpecularSmoothness.png
+  artifactKey: Guid(2644d3bb8b1ed4ab2b2188eaf89f7523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling Kegel & Ball/Resources/Textures/Ball_SpecularSmoothness.png using Guid(2644d3bb8b1ed4ab2b2188eaf89f7523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a698da48f53f693b7d1559868e4d5a85') in 0.123625 seconds
+  Import took 0.126753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Bowling Kegel & Ball/Resources/Textures/Ball_Normal.png
+  artifactKey: Guid(31f8987ce808c4a37b04eae96da9dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling Kegel & Ball/Resources/Textures/Ball_Normal.png using Guid(31f8987ce808c4a37b04eae96da9dbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2a7a095121ab34bea491edd14adadd') in 0.061504 seconds
+  Import took 0.063977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 147.440941 seconds.
+  path: Assets/Prefabs/Target.prefab
+  artifactKey: Guid(afa800b864afe1644b52cda06fe1d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Target.prefab using Guid(afa800b864afe1644b52cda06fe1d291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6a8b50d22c9cbbc417f52c50b1aedc') in 0.070872 seconds
+  Import took 0.074438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.282425 seconds.
+  path: Assets/Prefabs/Ammo.prefab
+  artifactKey: Guid(9b432b15fed5e3c4e9bbbb7d08b514ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammo.prefab using Guid(9b432b15fed5e3c4e9bbbb7d08b514ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8678cc4e959f635cd631d404a33f90fe') in 0.136044 seconds
+  Import took 0.140011 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.9 MB.
+System memory in use after: 47.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2309.
+Total: 16.605300 ms (FindLiveObjects: 0.267500 ms CreateObjectMapping: 0.092400 ms MarkObjects: 16.206800 ms  DeleteObjects: 0.036600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 776.876530 seconds.
+  path: Assets/Prefabs/AR Default Plane.prefab
+  artifactKey: Guid(eb94181f76f653d419c4ee8911a72334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/AR Default Plane.prefab using Guid(eb94181f76f653d419c4ee8911a72334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810f0d6696f4f100182232f2bc465211') in 0.044790 seconds
+  Import took 0.048973 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008567 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.254 seconds
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.5 MB.
+System memory in use after: 82.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 1.906200 ms (FindLiveObjects: 0.216900 ms CreateObjectMapping: 0.075800 ms MarkObjects: 1.595000 ms  DeleteObjects: 0.017200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 621.984148 seconds.
+  path: Assets/Prefabs/Ammo.prefab
+  artifactKey: Guid(9b432b15fed5e3c4e9bbbb7d08b514ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Ammo.prefab using Guid(9b432b15fed5e3c4e9bbbb7d08b514ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3845cfdc6885ff42bf618a536e6d1993') in 0.607704 seconds
+  Import took 0.613304 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.4 MB.
+System memory in use after: 46.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2314.
+Total: 4.464200 ms (FindLiveObjects: 0.292200 ms CreateObjectMapping: 0.118300 ms MarkObjects: 4.020000 ms  DeleteObjects: 0.031500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
