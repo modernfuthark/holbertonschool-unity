@@ -6,6 +6,7 @@ public class TargetCore : MonoBehaviour
 {
     private Vector3 origin;
     public float maxSpeed;
+    private float rotation;
     private float uniqSpeed;
     public float maxTravelDistance;
     private float uniqTravelDistance;
@@ -20,7 +21,7 @@ public class TargetCore : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float rotation = uniqSpeed * Time.deltaTime;
+        rotation += uniqSpeed * Time.deltaTime;
         Vector3 travel = new Vector3(Mathf.Sin(rotation) * uniqTravelDistance, 0, Mathf.Cos(rotation) * uniqTravelDistance);
         transform.position = origin + travel;
     }
