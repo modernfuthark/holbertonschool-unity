@@ -66,6 +66,7 @@ public class GameManager : MonoBehaviour
 	/* Game States */
 	void gameEnd()
 	{
+		gameObject.GetComponent<AudioSource>().Play();
 		Destroy(spawnedProj.gameObject);
 		saveScores(); PlayerPrefs.GetInt("First", 0);
 		scoresBg.gameObject.SetActive(true);

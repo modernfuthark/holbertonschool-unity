@@ -71,6 +71,7 @@ public class Projectile : MonoBehaviour
 						rb.constraints = RigidbodyConstraints.None;
 						Vector2 force = startPos - endPos;
 						gameObject.transform.parent = null;
+						gameObject.GetComponent<AudioSource>().Play();
 						rb.AddForce(new Vector3(-force.x, -force.y, -force.y) * .5f);
 						manager.updateAmmo();
 						break;
