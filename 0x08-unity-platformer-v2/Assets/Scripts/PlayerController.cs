@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,20 +11,32 @@ public class PlayerController : MonoBehaviour
 	private CharacterController playerCC;
 	public Camera cam;
 	private Animator anim;
-	private int fallingTime = 0;
+
+	private PlayerInputs input;
+
+	private Vector3 movement = new Vector3(0, 0, 0);
+
+
+	private void Awake() => input = new PlayerInputs();
 
 	// Start is called before the first frame update
 	void Start()
 	{
 		playerCC = GetComponent<CharacterController>();
 		anim = GetComponentInChildren<Animator>();
+
+		input.Enable();
 	}
 
 	// Update is called once per frame
 	void Update()
 	{
-		if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
-			anim.SetTrigger("Running");
+		input.Player.Move.performed += ctx =>
+		{
+			var v2 = ctx.ReadValue<Vector2>();
+			movement = new Vector3(v2.x, 0, v2.y);
+			movement.Normalize();
+		};
 		if (playerCC.enabled == true)  // Just incase pausing causes an error?
 		{
 			bool groundedPlayer = playerCC.isGrounded;
@@ -31,21 +44,28 @@ public class PlayerController : MonoBehaviour
 			{
 				playerV.y = 0f;
 			}
-			var forward = cam.transform.forward;
-			forward.Normalize();
-			Vector3 move = (cam.transform.forward  * Input.GetAxis("Vertical")) + (cam.transform.right * Input.GetAxis("Horizontal"));
-			move = new Vector3(move.x, 0, move.z);
-			playerCC.Move(move * Time.deltaTime * speed);
+
+			playerCC.Move(movement * Time.deltaTime * speed);
 
 
-			if (move != Vector3.zero)
-				transform.forward = move;
+			if (movement != Vector3.zero)
+				transform.forward = movement;
 
-			if (Input.GetKey(KeyCode.Space) && groundedPlayer)
+			input.Player.Jump.started += ctx =>
+			{
+				if (groundedPlayer && ctx.phase == InputActionPhase.Started)
+				{
+					Debug.Log("Got");
+					anim.SetTrigger("Jumping");
+					playerV.y += Mathf.Sqrt(jumpHeight * -100.0f * -9.81f);
+				}
+			};
+			/*
+			if (Keyboard.current.spaceKey.wasPressedThisFrame && groundedPlayer)
 			{
 				anim.SetTrigger("Jumping");
 				playerV.y += Mathf.Sqrt(jumpHeight * -3.0f * -9.81f);
-			}
+			}*/
 			if (!groundedPlayer && playerV.y > 10)
 			{
 				anim.SetTrigger("Falling");

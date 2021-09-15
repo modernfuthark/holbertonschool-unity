@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CameraController : MonoBehaviour
 {
@@ -11,13 +12,17 @@ public class CameraController : MonoBehaviour
 	public float rotateX;
 	public float rotateY;
 
+	private PlayerInputs input;
+
 	public bool isInverted = false;
 
+
+	private void Awake() => input = new PlayerInputs();
 	void Start()
 	{
 		Cursor.visible = false;
 		Cursor.lockState = CursorLockMode.Locked;
-		
+
 		offset = player.position - transform.position;
 
 		isInverted = (PlayerPrefs.GetInt("InvertedY") != 0);
@@ -25,11 +30,12 @@ public class CameraController : MonoBehaviour
 
 	void Update()
 	{
-		rotateX += Input.GetAxis("Mouse X") * rotateSpeed;
+		var m = Mouse.current.delta.ReadValue();
+		rotateX += m.x * rotateSpeed;
 		if (isInverted)
-			rotateY -= Input.GetAxis("Mouse Y") * rotateSpeed;
+			rotateY -= m.y * rotateSpeed;
 		else
-			rotateY += Input.GetAxis("Mouse Y") * rotateSpeed;
+			rotateY += m.y * rotateSpeed;
 
 		rotateY = Mathf.Clamp(rotateY, -50, 50);
 		Quaternion camRotate = Quaternion.Euler(-rotateY, rotateX, 0f);
